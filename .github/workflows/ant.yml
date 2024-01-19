@@ -23,6 +23,7 @@ jobs:
           distribution: 'temurin'
       - name: Build with Ant
         run: |
+          echo $pwd
           echo "Starting Build"
           javac Exam.java
           java Exam
